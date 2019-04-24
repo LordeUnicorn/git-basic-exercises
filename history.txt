@@ -1,0 +1,290 @@
+    1  sudo lsb_release
+    2  sudo<lsb_release>
+    3  sudo <lsb_release>
+    4  lsb_release -a
+    5  sudo install cowsay
+    6  sudo install cowsay -a
+    7  sudo install fortune
+    8  add-apt-repository ppa:cowsay
+    9  sudo apt-get update
+   10  sudo add-apt-repository ppa:cowsay_3.03+dfsg2-4.debian.tar.xz
+   11  uname -a
+   12  uname -r
+   13  cat /etc/redhat-release
+   14  uptime
+   15  hostname
+   16  hostname -I
+   17  last reboot
+   18  cal
+   19  date
+   20  whoami
+   21  dmesg
+   22  free -h
+   23  lsusb -tv
+   24  lsof
+   25  id
+   26  last
+   27  w
+   28  useradd -c "John Smith" -m john
+   29  useradd -c "Milpontia" -m milpontia
+   30  userdel milpontia
+   31  pwd
+   32  rm file
+   33  touch file
+   34  head file
+   35  ps
+   36  bg
+   37  sudo command
+   38  sudo apt-get install cowsay
+   39  sudo apt-get install fortune
+   40  sudo apt-get install figlet
+   41  sudo apt-get install rig
+   42  sudo apt-get install lolcat
+   43  -f darth vader cowsay
+   44  cowsay darth vader
+   45  cowsay -g
+   46  cowsay -s
+   47  cowsay -s stoned
+   48  cowthink -g money bitches
+   49  cowwera darth vader
+   50  cowwear darth vader
+   51  cowsay -d darth vader
+   52  cowsay vader
+   53  cowsay <vader.
+   54  cowsay <vader>
+   55  cowsay vader.cow
+   56  cowsay vader.cow:
+   57  cowsay | fortune
+   58  chmod u-rwx bass
+   59  ls -l
+   60  chmod u=rwx
+   61  u=rwx/
+   62  chmod 777 bass/
+   63  ls -l bass
+   64  echo $?
+   65  su recruit
+   66  vim
+   67  sudo apt install vim
+   68  vim
+   69  ssh umuzi1.bjart.li
+   70  ssh umuzi2.bjart.li
+   71  ssh umuzi3.bjart.li
+   72  wget http://umuzi.gitlab.io/linux-slides/files/books.tar.gz
+   73  file book.tar.gz
+   74  file mysteryfiles.tar.gz
+   75  wget http://umuzi.gitlab.io/linux-slides/files/mysteryfiles.tar.gz
+   76  file mysteryfiles.tar.gz
+   77  file books.tar.gz
+   78  Extracting .tar.gz files
+   79  tar xvzf file.tar.gz
+   80  tar xvzf mysteryfiles.tar.gz
+   81  tar xvzf booksfiles.tar.gz
+   82  tar xvzf books.tar.gz
+   83  file mysteryfiles.tar.gz
+   84  file mystery1
+   85  grep A-Tale-Of-Two-Cities
+   86  apt-get install anaconda
+   87  sudo apt-get install anaconda
+   88  mkdir thankyounext
+   89  cd thankyounext
+   90  touch 7rings
+   91  chmod 7rings ls -l
+   92  chmod 7rings 777
+   93  chmod thankyounext 777
+   94  chmod --help
+   95  chmod MODE[,MODE]... FILE...
+   96  CHMOD
+   97  chmod
+   98  chmod 777 rings
+   99  chmod 777 7rings
+  100  ls -l 7rings
+  101  chmod 110 7rings
+  102  ls -l 7rings
+  103  chmod 664 7rings
+  104  ls -l 7rings
+  105  chmod 644 7rings
+  106  ls -l 7rings
+  107  chmod root 7rings
+  108  chmod 770 7rings
+  109  rm 7rings
+  110  fortune | cowsay -f vader
+  111  man cowsay 
+  112  cowsay -s
+  113  echo "Hello World!"
+  114  printf "Hello World!" \n
+  115  echo "Hello ${Ri}, the time is now.time is now..."
+  116  fortune | cowsay -s
+  117  fortune | cowsay -d
+  118  fortune | cowsay -g
+  119  normal output
+  120  normaloutput
+  121  ls -l > /dev/null
+  122  ls -l 2> /dev/null
+  123  mysteryfiles.tar.gz
+  124  ls -l 2>&1
+  125  grep mysteryfiles.tar.gz
+  126  grep
+  127  grep mysteryfiles.tar.gz
+  128  grep --help
+  129  grep -i mysteryfiles.tar.gz
+  130  grep -i
+  131  grep -f 
+  132  grep -f mysteryfiles.tar.gz
+  133  grep -i mysteryfiles.tar.gz
+  134  grep --help
+  135  grep -L mysteryfiles.tar.gz
+  136  grep -H mysteryfiles.tar.gz
+  137  grep -f mysteryfiles.tar.gz
+  138  grep -l mysteryfiles.tar.gz
+  139  grep -f mysteryfiles.tar.gz
+  140  grep: -f mysteryfiles.tar.gz
+  141  deb grep mysteryfiles.tar.gz
+  142  grep -s mysteryfiles.tar.gz
+  143  grep 'A Tale Of Two Cities' mysteryfiles.tar.gz
+  144  grep 'A Tale Of Two Cities' books.tar.gz
+  145  grep -i 'A Tale Of Two Cities' mysteryfiles.tar.gz
+  146  grep -i 'A Tale Of Two Cities' books.tar.gz
+  147  grep 'data' books.tar.gz
+  148  grep "A Tale Of Two Cities" mysteryfiles.tar.gz
+  149  grep "book" books.tar.gz
+  150  git fetch && git reset --hard FETCH_HEAD
+  151  GIT
+  152  git
+  153  file mysteryfiles.tar.gz
+  154  unzip mysteryfiles.tar.gz
+  155  tar -xvf mysteryfiles.tar.gz
+  156  tar -xjvf mysteryfiles.tar.bz2
+  157  tar -xjvf mysteryfiles.tar.gz
+  158  tar -xvfz mysteryfiles.tar.gz
+  159  tar -xvfz mysteryfile.tar.gz
+  160  tar -xvfz mysteryfiles.tar.gz
+  161  tar -z mysteryfiles.tar.gz
+  162  tar --help
+  163  tar -tvf mysteryfiles.tar.gz
+  164  mystery1
+  165  open mystery1
+  166  tar -xvf mystery1
+  167  ls mystery1
+  168  cd mystery1
+  169  cd mystery3
+  170  tar -z mysteryfiles.tar.gz
+  171  sudo apt update
+  172  sudo apt upgrade
+  173  print('hello world')
+  174  print(hello world)
+  175  print(python)
+  176  print
+  177  hello = 'hello world'
+  178  print(hello)
+  179  python help
+  180  print() hello world
+  181  print() world
+  182  'print('hello world')'
+  183  echo 'print('hello')'
+  184  git ls
+  185  git --help
+  186  git branch
+  187  cd git
+  188  git branch ls
+  189  .git ls
+  190  ls .git
+  191  .git branch
+  192  cd ~
+  193  clear
+  194  ls
+  195  tree
+  196  sudo apt install tree
+  197  clear
+  198  tree
+  199  clear
+  200  tree
+  201  ls
+  202  clear
+  203  cd /
+  204  ls
+  205  tree
+  206  clear
+  207  netconfig
+  208  config
+  209  tree
+  210  clear
+  211  help
+  212  logout
+  213  exit
+  214  ls
+  215  cd books && ls
+  216  clear
+  217  ls
+  218  cd ../ && ls
+  219  cd Videos/
+  220  ls
+  221  clea
+  222  clear
+  223  cd ../Downloads/ && ls
+  224  tree
+  225  office TheBalance_Resume_2058495.docx 
+  226  loffice TheBalance_Resume_2058495.docx 
+  227  loffice resume_1547040696160.docx
+  228  ls
+  229  cleatr
+  230  clear
+  231  cd /
+  232  tree
+  233  cd vimlinuz
+  234  clear
+  235  ls
+  236  shutdown
+  237  clear
+  238  mkdir git-basic-exercises
+  239  cd git-basic-exercises
+  240  ls -a
+  241  git init
+  242  ls -a
+  243  git status
+  244  touch README.md
+  245  ls -a
+  246  git status
+  247  git log
+  248  git add README.md
+  249  git status
+  250  git rm README.md
+  251  git status
+  252  git rm --cached README.md
+  253  git status
+  254  git add README.md
+  255  git status
+  256  git commit -m "initial commit"
+  257  git config user.email milpontia.ngwenya@umuzi.org
+  258  git commit -m "initial commit"
+  259  git log
+  260  q
+  261  nano README.md
+  262  cat README.md
+  263  git stats
+  264  git status
+  265  git commit -m "second commit"
+  266  git stats
+  267  git commit -m "second commit"
+  268  git status
+  269  git commit -a "second commit"
+  270  git log
+  271  git commit -m "second commit"
+  272  git checkout efb8dec39d372108b248f65d13d67d7b44076d81 
+  273  git checkout -b new-branch
+  274  git cat README.md
+  275  cat README.md
+  276  git checkout master
+  277  git branch
+  278  git -b milkshake-flavours
+  279  git branch
+  280  git checkout -b milkshake-flavours
+  281  git branch
+  282  nano milkshakes.md
+  283  git status
+  284  git add milkshakes.md
+  285  git status
+  286  git commit -m "added initial flavours"
+  287  git log
+  288  git checkout master
+  289  git checkout -b history
+  290  history > history.txt
